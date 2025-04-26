@@ -5,6 +5,7 @@ import Header from './assets/componens/Header'
 import Banner from './assets/componens/Banner'
 import Navbar from './assets/componens/Navbar'
 import BannerCarousel from './assets/componens/BannerCarousel'
+import StructurePage from './assets/componens/StructurePage'
 
 
 function Contact() {
@@ -24,6 +25,7 @@ function App() {
       <Banner/>
       <Navbar/>
       <BannerCarousel/>
+      <StructurePage/>
       <Routes>
         
       </Routes>
