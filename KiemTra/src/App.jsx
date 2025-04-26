@@ -4,6 +4,7 @@ import './App.css'
 import Header from './assets/componens/Header'
 import Banner from './assets/componens/Banner'
 import Navbar from './assets/componens/Navbar'
+import BannerCarousel from './assets/componens/BannerCarousel'
 
 
 function Contact() {
@@ -22,7 +23,9 @@ function App() {
       <Header /> {/* Header xuất hiện ở tất cả các trang */}
       <Banner/>
       <Navbar/>
+      <BannerCarousel/>
       <Routes>
+        
       </Routes>
     </Router>
   )
