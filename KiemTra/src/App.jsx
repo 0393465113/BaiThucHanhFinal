@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
 import './App.css'
 import Header from './assets/componens/Header'
+import Banner from './assets/componens/Banner'
 
 
 function Contact() {
@@ -18,6 +19,7 @@ function App() {
   return (
     <Router>
       <Header /> {/* Header xuất hiện ở tất cả các trang */}
+      <Banner/>
       <Routes>
       </Routes>
     </Router>
